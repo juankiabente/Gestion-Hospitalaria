@@ -1,0 +1,27 @@
+{
+  "23322211": {
+    "password": "1234",
+    "name": "mittax9",
+    "type": "Paciente"
+  },
+  "11111111": {
+    "password": "111",
+    "name": "juanki",
+    "type": "Paciente"
+  },
+  "pititadolorcola": {
+    "password": "123",
+    "name": "pita",
+    "type": "Paciente"
+  },
+  "asd": {
+    "password": "asd",
+    "name": "asd",
+    "type": "Paciente"
+  },
+  "12345678": {
+    "password": "12345678",
+    "name": "olaaaaaaaaaaaaaaa",
+    "type": "Paciente"
+  }
+}

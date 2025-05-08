@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Paciente - Turnos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Bienvenido, <span id="nombre-usuario"></span></h2>
+    <p>Documento: <span id="doc-usuario"></span></p>
+
+    <h3>Solicitar Turno</h3>
+    <label for="prioridad">Nivel de urgencia:</label>
+    <select id="prioridad">
+      <option value="1">Crítico (Dificultad respiratoria severa)</option>
+      <option value="2">Urgente (Fiebre alta persistente)</option>
+      <option value="3">Regular (Síntomas leves)</option>
+    </select>
+    <button onclick="solicitarTurno()">Solicitar turno</button>
+
+    <h3>Cola de Espera</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Documento</th>
+          <th>Nombre</th>
+          <th>Prioridad</th>
+          <th>Hora</th>
+        </tr>
+      </thead>
+      <tbody id="tabla-turnos">
+        <!-- turnos aquí -->
+      </tbody>
+    </table>
+
+    <button onclick="logout()">Cerrar sesión</button>
+  </div>
+
+  <script src="paciente.js"></script>
+</body>
+</html>

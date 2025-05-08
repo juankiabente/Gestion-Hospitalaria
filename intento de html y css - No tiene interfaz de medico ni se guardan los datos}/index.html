@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Sistema Hospitalario - Login</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Sistema de Gestión Hospitalaria</h1>
+
+    <label for="user-type">Tipo de usuario:</label>
+    <select id="user-type" onchange="toggleForm()">
+      <option value="patient">Paciente</option>
+      <option value="staff">Personal de Salud</option>
+    </select>
+
+    <div id="form-container">
+      <!-- Login Form -->
+      <div id="login-form">
+        <input type="text" id="user-id" placeholder="Documento" />
+        <input type="password" id="password" placeholder="Contraseña" />
+        <button onclick="login()">Iniciar sesión</button>
+        <p id="toggle-text" onclick="showRegister()">¿Nuevo paciente? Registrarse</p>
+      </div>
+
+      <!-- Register Form -->
+      <div id="register-form" style="display: none;">
+        <input type="text" id="name" placeholder="Nombre completo" />
+        <button onclick="register()">Registrarse</button>
+        <p onclick="showLogin()">¿Ya tiene cuenta? Iniciar sesión</p>
+      </div>
+    </div>
+
+    <div id="message"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

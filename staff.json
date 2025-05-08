@@ -1,0 +1,38 @@
+{
+  "46300877": {
+    "password": "admin123",
+    "name": "Dr. Juan Carlos Abente",
+    "type": "Personal de Salud",
+    "role": "M\u00e9dico"
+  },
+  "doc456": {
+    "password": "admin456",
+    "name": "Dra. Mar\u00eda G\u00f3mez",
+    "type": "Personal de Salud",
+    "role": "Enfermera Jefe"
+  },
+  "46730897": {
+    "password": "admin123",
+    "name": "Dr. Santiago Nicol\u00e1s Gonzalez",
+    "type": "Personal de Salud",
+    "role": "El mas pithon"
+  },
+  "46730670": {
+    "password": "admin123",
+    "name": "Dr. Octavio Garc\u03C0a",
+    "type": "Personal de Salud",
+    "role": "Subjefe"
+  },
+  "46478627": {
+    "password": "admin123",
+    "name": "Dra. Priscila Galeano",
+    "type": "Personal de Salud",
+    "role": "Cardiol\u00F3ga"
+  },
+  "46834369": {
+    "password": "admin123",
+    "name": "Dr. Pitittax",
+    "type": "Personal de Salud",
+    "role": "Ur\u00F3logo"
+  }
+}
